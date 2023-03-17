@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in form</title>
+    <script src="login.js" defer></script>
+</head>
+<body>
+    <h2>Sign up to chat with your friends</h2>
+    <form id="login_form" method="post" onsubmit="signup()">
+        <p>Enter name:</p><input type="text" class="form_input" id="usrname">
+       <p>Enter password:</p><input type="password" class="form_input" id="password">
+       <p>Confirm password:</p><input type="password" class="form_input" id="re-password">
+       <input type="submit" class="submit_btn" value="Sign Up" onclick="window.open('Chat.html')">
+       <input type="reset" class="reset_btn" value="Clear">
+    </form>
+</body>
+</html>

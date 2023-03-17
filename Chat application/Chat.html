@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital@1&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1dbe50fbcb.js" crossorigin="anonymous"></script>
+    <title>Chat Application</title>
+    <link type="text/css" rel="stylesheet" href="application_style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="chat_application" id="chat_application">
+            <div class="chat_TopBar">
+                <nav class="TopBar">
+                    <ul class="nav_content">
+                        <li class="usrname">User</li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="chat_body">
+                <div class="messages_window">
+                    <div class="chat_message_computer">
+                        <p>Hello</p>
+                    </div>
+                </div>
+                <div class="chat_message_input">
+                    <form id="message_form">
+                        <input type="text" id="message_enter" placeholder="Send message..">
+                        <button id="message_send_btn" type="button">
+                            <i class="fa-sharp fa-solid fa-paper-plane fa-2xl"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
